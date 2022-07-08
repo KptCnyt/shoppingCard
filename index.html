@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="title_section">
+    <h1>AlliExpress</h1>
+    <h2>**Shopping List**</h2>
+    </div>
+    <div id="first_grid">
+        <div id="first_item">
+             <h4 id="item_name">ITEM : File set</h4>
+    <img class="images" id="file" src="https://i.ebayimg.com/images/g/we4AAOSwAEJf2ZSO/s-l1600.jpg" width="25%"></img><h4>Cost : 7,5 £ / per piece</h4><input class="buttons" type="button" value="<" id="previous"> <input id="next" class="buttons" type="button" value=">">  <input id="add_to_card" class="buttons" type="button" value="ADD TO CARD"> 
+        </div>
+        <div id="second_item">
+            <h4>ITEM : Soldering Iron Kit</h4>
+    <img class="images" id="soldering" src="https://i.ebayimg.com/images/g/DPMAAOSwr9hg-sSa/s-l1600.jpg" width="25%"></img><h4>Cost : 9 £ / per piece</h4><input type="button" class="buttons" value="<" id="previous1"> <input id="next1" class="buttons" type="button" value=">">  <input id="add_to_card1" class="buttons" type="button" value="ADD TO CARD">
+        </div>
+        <div id="third_item">
+            <h4>ITEM : Mini Lathe</h4>
+    <img class="images" id="lathe" src="https://i.ebayimg.com/images/g/~XYAAOSw0GJhgRLH/s-l1600.jpg" width="25%"></img><h4>Cost : 35 £ / per piece</h4><input type="button" value="<" class="buttons" id="previous2"> <input id="next2" type="button" class="buttons" value=">">  <input id="add_to_card2" class="buttons" type="button" value="ADD TO CARD">
+        </div>
+    </div>
+   
+        
+    <div id="info_section">
+    <h4>**Customer Informations</h4><input type="text" id="name_input" placeholder="enter your name">  <input type="button" id="customers_name" value="Save the name" ><br><br><input type="text" id="address_input" placeholder="enter your address">  <input type="button" id="adress" value="Save the address"><h4>**Shopping Basket**</h4><ul id="shopping_card"></ul><h3>Total Cost is : £ <span id="total_cost"></span></h3>
+    <input type="button" class="buttons" value="GO TO CHECKOUT">
+    </div>
+       
+<script src="generated.js"></script>
+</body>
+</html>
